@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 1: Tile Class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElfEngine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ElfEngine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Tile.java" afterDir="false" />
+    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/guava_31_1_jre.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Alex/IdeaProjects/guava-31.1-jre.jar",
     "node.js.detected.package.eslint": "true",
@@ -66,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677540767515</updated>
-      <workItem from="1677540768656" duration="9883000" />
+      <workItem from="1677540768656" duration="10358000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 1: Tile Class">
       <created>1677639492833</created>
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677639492833</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)">
+      <created>1677655371679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677655371679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stage 1: Tile Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stage 1: Tile Class" />
+    <MESSAGE value="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
