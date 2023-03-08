@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)">
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
+    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 3: Changes to Pieces, started working on the Knight. Added Alliance (color) as an enum since they're just a constant. Added getters for Alliance, pieces at certain tiles, and the tiles themselves">
+      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +59,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.chess.engine.board.BoardUtils" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +73,9 @@
       <option name="presentableId" value="Default" />
       <updated>1677540767515</updated>
       <workItem from="1677540768656" duration="10479000" />
-      <workItem from="1677802476074" duration="3704000" />
+      <workItem from="1677802476074" duration="5121000" />
+      <workItem from="1678066166748" duration="1233000" />
+      <workItem from="1678302083306" duration="5072000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 1: Tile Class">
       <created>1677639492833</created>
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677655583032</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stage 3: Changes to Pieces, started working on the Knight. Added Alliance (color) as an enum since they're just a constant. Added getters for Alliance, pieces at certain tiles, and the tiles themselves">
+      <created>1677807095522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677807095522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stage 1: Tile Class" />
     <MESSAGE value="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)" />
+    <MESSAGE value="Stage 3: Changes to Pieces, started working on the Knight. Added Alliance (color) as an enum since they're just a constant. Added getters for Alliance, pieces at certain tiles, and the tiles themselves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stage 3: Changes to Pieces, started working on the Knight. Added Alliance (color) as an enum since they're just a constant. Added getters for Alliance, pieces at certain tiles, and the tiles themselves" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
