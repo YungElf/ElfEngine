@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import static com.chess.engine.board.Move.*;
+
 
 public class Knight extends Piece {
 
@@ -21,7 +23,7 @@ public class Knight extends Piece {
     }
 
     @Override
-    public Collection<Move> calculateLegalMoves(Board board) {
+    public Collection<Move> calculateLegalMoves(final Board board) {
 
         final List<Move> LegalMoves = new ArrayList<>();
 
@@ -35,28 +37,28 @@ public class Knight extends Piece {
                         isSeventhColumnExclusion(this.piecePosition, currentCandidateOffset) ||
                         isEighthColumnExclusion(this.piecePosition, currentCandidateOffset)) {
                     continue;
-            }
+                }
 
-            final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
+                final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
 
-            if (candidateDestinationTile.isTileOccupied()) {
-                LegalMoves.add(new Move());
-            } else {
+                if (candidateDestinationTile.isTileOccupied()) {
+                    LegalMoves.add(new MajorMove(board, this, candidateDestinationCoordinate));
+                } else {
 
-                final Piece pieceAtDestination = candidateDestinationTile.getPiece();
-                final Alliance pieceAlliance = pieceAtDestination.getPieceAlliance();
+                    final Piece pieceAtDestination = candidateDestinationTile.getPiece();
+                    final Alliance pieceAlliance = pieceAtDestination.getPieceAlliance();
 
-                if (this.pieceAlliance != pieceAlliance) {
-                    LegalMoves.add(new Move());
+                    if (this.pieceAlliance != pieceAlliance) {
+                        LegalMoves.add(new AttackMove(board, this, candidateDestinationCoordinate, pieceAtDestination));
+                    }
                 }
             }
-        }
 
-    }
+        }
 
 
         return ImmutableList.copyOf(LegalMoves);
-}
+    }
 
     private static boolean isFirstColumnExclusion(final int currentPosition, final int candidateOffset) {
 

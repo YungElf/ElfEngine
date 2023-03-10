@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 3: Changes to Pieces, started working on the Knight. Added Alliance (color) as an enum since they're just a constant. Added getters for Alliance, pieces at certain tiles, and the tiles themselves">
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" afterDir="false" />
+    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 4: Fleshed out the Knight class, that should be mostly done for now. Added exclusion for certain columns due to the way I am calculating legal moves, will be adding more of those types of things to the BoardUtils class. Also changed the &quot;list&quot; of moves from an actual List to a Collection, as it makes more sense for Chess. Moved some declarations around as well. I think it is using more memory this way, but it's cleaner code so it works for me.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Tile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,8 @@
       <workItem from="1677540768656" duration="10479000" />
       <workItem from="1677802476074" duration="5121000" />
       <workItem from="1678066166748" duration="1233000" />
-      <workItem from="1678302083306" duration="5072000" />
+      <workItem from="1678302083306" duration="7067000" />
+      <workItem from="1678432585451" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 1: Tile Class">
       <created>1677639492833</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677807095522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stage 4: Fleshed out the Knight class, that should be mostly done for now. Added exclusion for certain columns due to the way I am calculating legal moves, will be adding more of those types of things to the BoardUtils class. Also changed the &quot;list&quot; of moves from an actual List to a Collection, as it makes more sense for Chess. Moved some declarations around as well. I think it is using more memory this way, but it's cleaner code so it works for me.">
+      <created>1678307861178</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678307861178</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +135,8 @@
     <MESSAGE value="Stage 1: Tile Class" />
     <MESSAGE value="Stage 2: still the tile class. added as much immutability as I could for the purposes of learning. it makes sense as well since chess is a very strict game. imported google's Guava libary to use ImmutableMap. Also got 99 fishing in OSRS earlier today! :)" />
     <MESSAGE value="Stage 3: Changes to Pieces, started working on the Knight. Added Alliance (color) as an enum since they're just a constant. Added getters for Alliance, pieces at certain tiles, and the tiles themselves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stage 3: Changes to Pieces, started working on the Knight. Added Alliance (color) as an enum since they're just a constant. Added getters for Alliance, pieces at certain tiles, and the tiles themselves" />
+    <MESSAGE value="Stage 4: Fleshed out the Knight class, that should be mostly done for now. Added exclusion for certain columns due to the way I am calculating legal moves, will be adding more of those types of things to the BoardUtils class. Also changed the &quot;list&quot; of moves from an actual List to a Collection, as it makes more sense for Chess. Moved some declarations around as well. I think it is using more memory this way, but it's cleaner code so it works for me." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stage 4: Fleshed out the Knight class, that should be mostly done for now. Added exclusion for certain columns due to the way I am calculating legal moves, will be adding more of those types of things to the BoardUtils class. Also changed the &quot;list&quot; of moves from an actual List to a Collection, as it makes more sense for Chess. Moved some declarations around as well. I think it is using more memory this way, but it's cleaner code so it works for me." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
