@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 5: Did some housekeeping on the BoardUtils class, added a very convenient method that allows us to initialize and keep track of a particular column on the chess board. Added said method into the Knight class in the column exclusions. More work on the Knight class in general, but now the ability to capture the information about moves is laid out (attacking Moves vs Major Piece moves atm), or at least some sort of a barebones framework. More Board class work to come.">
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +76,7 @@
       <workItem from="1678302083306" duration="7067000" />
       <workItem from="1678432585451" duration="2733000" />
       <workItem from="1678578063830" duration="2338000" />
+      <workItem from="1678855160043" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 1: Tile Class">
       <created>1677639492833</created>
