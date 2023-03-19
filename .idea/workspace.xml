@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 6: The Queen has arrived. Pretty simple honestly, a very quick copy and paste from Rook and Bishop and good to go. Next should be the Pawn, not quite sure how I'm handling that one but I guess we will see. Job search still killing me. Also my HC Ironman died yesterday. rank 896 global.">
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
+    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 7: basic Pawn added, had to add some things to the Alliance class since pawns move in opposite directions. Stubbed out some code for the moves, will add a special &quot;pawnMove&quot; next time I work on this.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
       <workItem from="1678432585451" duration="2733000" />
       <workItem from="1678578063830" duration="2338000" />
       <workItem from="1678855160043" duration="2096000" />
-      <workItem from="1679205862764" duration="919000" />
+      <workItem from="1679205862764" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 1: Tile Class">
       <created>1677639492833</created>
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678857250954</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Stage 7: basic Pawn added, had to add some things to the Alliance class since pawns move in opposite directions. Stubbed out some code for the moves, will add a special &quot;pawnMove&quot; next time I work on this.">
+      <created>1679206862765</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679206862765</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +162,8 @@
     <MESSAGE value="Stage 4: Fleshed out the Knight class, that should be mostly done for now. Added exclusion for certain columns due to the way I am calculating legal moves, will be adding more of those types of things to the BoardUtils class. Also changed the &quot;list&quot; of moves from an actual List to a Collection, as it makes more sense for Chess. Moved some declarations around as well. I think it is using more memory this way, but it's cleaner code so it works for me." />
     <MESSAGE value="Stage 5: Did some housekeeping on the BoardUtils class, added a very convenient method that allows us to initialize and keep track of a particular column on the chess board. Added said method into the Knight class in the column exclusions. More work on the Knight class in general, but now the ability to capture the information about moves is laid out (attacking Moves vs Major Piece moves atm), or at least some sort of a barebones framework. More Board class work to come." />
     <MESSAGE value="Stage 6: The Queen has arrived. Pretty simple honestly, a very quick copy and paste from Rook and Bishop and good to go. Next should be the Pawn, not quite sure how I'm handling that one but I guess we will see. Job search still killing me. Also my HC Ironman died yesterday. rank 896 global." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stage 6: The Queen has arrived. Pretty simple honestly, a very quick copy and paste from Rook and Bishop and good to go. Next should be the Pawn, not quite sure how I'm handling that one but I guess we will see. Job search still killing me. Also my HC Ironman died yesterday. rank 896 global." />
+    <MESSAGE value="Stage 7: basic Pawn added, had to add some things to the Alliance class since pawns move in opposite directions. Stubbed out some code for the moves, will add a special &quot;pawnMove&quot; next time I work on this." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stage 7: basic Pawn added, had to add some things to the Alliance class since pawns move in opposite directions. Stubbed out some code for the moves, will add a special &quot;pawnMove&quot; next time I work on this." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
