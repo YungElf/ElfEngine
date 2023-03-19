@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 7: basic Pawn added, had to add some things to the Alliance class since pawns move in opposite directions. Stubbed out some code for the moves, will add a special &quot;pawnMove&quot; next time I work on this.">
+    <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 8: More Pawn work, dealt with the weird 2 tile move that pawns can do as a first move, so added a way to check if it was a piece's first move (WIP). Added a check to see if a piece was white or black that I can actually call. Added row exclusions to BoardUtils(WIP). Adding a lot of stubbed out garbage but will fix it later, stubs make it easier to write it out">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1678432585451" duration="2733000" />
       <workItem from="1678578063830" duration="2338000" />
       <workItem from="1678855160043" duration="2096000" />
-      <workItem from="1679205862764" duration="1919000" />
+      <workItem from="1679205862764" duration="3461000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 1: Tile Class">
       <created>1677639492833</created>
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679206862765</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Stage 8: More Pawn work, dealt with the weird 2 tile move that pawns can do as a first move, so added a way to check if it was a piece's first move (WIP). Added a check to see if a piece was white or black that I can actually call. Added row exclusions to BoardUtils(WIP). Adding a lot of stubbed out garbage but will fix it later, stubs make it easier to write it out">
+      <created>1679208114535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679208114535</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +167,8 @@
     <MESSAGE value="Stage 5: Did some housekeeping on the BoardUtils class, added a very convenient method that allows us to initialize and keep track of a particular column on the chess board. Added said method into the Knight class in the column exclusions. More work on the Knight class in general, but now the ability to capture the information about moves is laid out (attacking Moves vs Major Piece moves atm), or at least some sort of a barebones framework. More Board class work to come." />
     <MESSAGE value="Stage 6: The Queen has arrived. Pretty simple honestly, a very quick copy and paste from Rook and Bishop and good to go. Next should be the Pawn, not quite sure how I'm handling that one but I guess we will see. Job search still killing me. Also my HC Ironman died yesterday. rank 896 global." />
     <MESSAGE value="Stage 7: basic Pawn added, had to add some things to the Alliance class since pawns move in opposite directions. Stubbed out some code for the moves, will add a special &quot;pawnMove&quot; next time I work on this." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stage 7: basic Pawn added, had to add some things to the Alliance class since pawns move in opposite directions. Stubbed out some code for the moves, will add a special &quot;pawnMove&quot; next time I work on this." />
+    <MESSAGE value="Stage 8: More Pawn work, dealt with the weird 2 tile move that pawns can do as a first move, so added a way to check if it was a piece's first move (WIP). Added a check to see if a piece was white or black that I can actually call. Added row exclusions to BoardUtils(WIP). Adding a lot of stubbed out garbage but will fix it later, stubs make it easier to write it out" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stage 8: More Pawn work, dealt with the weird 2 tile move that pawns can do as a first move, so added a way to check if it was a piece's first move (WIP). Added a check to see if a piece was white or black that I can actually call. Added row exclusions to BoardUtils(WIP). Adding a lot of stubbed out garbage but will fix it later, stubs make it easier to write it out" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
