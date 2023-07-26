@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6503a414-7eb8-439c-9afb-faf13e18d9cd" name="Changes" comment="Stage 8: More Pawn work, dealt with the weird 2 tile move that pawns can do as a first move, so added a way to check if it was a piece's first move (WIP). Added a check to see if a piece was white or black that I can actually call. Added row exclusions to BoardUtils(WIP). Adding a lot of stubbed out garbage but will fix it later, stubs make it easier to write it out">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/failureaccess_1_0_1__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/guava_32_0_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/guava_31_1_jre.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElfEngine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ElfEngine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +47,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alex/Documents/GitHub/ag-roz.github.io&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Code Stuff/ElfEngine&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -48,7 +59,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -78,6 +89,11 @@
       <workItem from="1678578063830" duration="2338000" />
       <workItem from="1678855160043" duration="2096000" />
       <workItem from="1679205862764" duration="3461000" />
+      <workItem from="1687973711426" duration="429000" />
+      <workItem from="1687974157083" duration="1259000" />
+      <workItem from="1690139460660" duration="1285000" />
+      <workItem from="1690349983804" duration="916000" />
+      <workItem from="1690407180756" duration="2100000" />
     </task>
     <task id="LOCAL-00001" summary="Stage 1: Tile Class">
       <created>1677639492833</created>

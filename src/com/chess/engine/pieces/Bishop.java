@@ -25,7 +25,7 @@ public class Bishop extends Piece {
     @Override
     public Collection<Move> calculateLegalMoves(final Board board) {
 
-        final List<Move> LegalMoves = new ArrayList<>();
+        final List<Move> legalMoves = new ArrayList<>();
 
         /*loop through each one of the vectors, and for each one, -9 for example. candidate we want to consider starts
         as our current position, checks if the candidate is a valid position (aka not off the edge of the board)
@@ -47,13 +47,13 @@ public class Bishop extends Piece {
                 if (BoardUtils.isValidTileCoordinate(candidateDestinationCoordinate)) {
                     final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
                     if (candidateDestinationTile.isTileOccupied()) {
-                        LegalMoves.add(new MajorMove(board, this, candidateDestinationCoordinate));
+                        legalMoves.add(new MajorMove(board, this, candidateDestinationCoordinate));
                     } else {
                         final Piece pieceAtDestination = candidateDestinationTile.getPiece();
                         final Alliance pieceAlliance = pieceAtDestination.getPieceAlliance();
 
                         if (this.pieceAlliance != pieceAlliance) {
-                            LegalMoves.add(new AttackMove(board, this, candidateDestinationCoordinate, pieceAtDestination));
+                            legalMoves.add(new AttackMove(board, this, candidateDestinationCoordinate, pieceAtDestination));
                         }
                         break;
                     }
@@ -61,7 +61,7 @@ public class Bishop extends Piece {
             }
 
         }
-        return ImmutableList.copyOf(LegalMoves);
+        return ImmutableList.copyOf(legalMoves);
     }
 
     private static boolean isFirstColumnExclusion(final int currentPosition, final int candidateOffset){

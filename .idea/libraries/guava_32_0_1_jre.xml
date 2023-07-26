@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="failureaccess-1.0.1">
+  <library name="guava-32.0.1-jre">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../failureaccess-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-32.0.1-jre.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

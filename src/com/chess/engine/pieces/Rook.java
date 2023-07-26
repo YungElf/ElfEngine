@@ -24,7 +24,7 @@ public class Rook extends Piece {
 
         final List<Move> LegalMoves = new ArrayList<>();
 
-        /*Copy past from Bishop honestly, different numbers, same story */
+        /*Copy paste from Bishop honestly, different numbers, same story */
 
         for (final int candidateCoordinateOffset : CANDIDATE_MOVE_VECTOR_COORDINATES) {
             int candidateDestinationCoordinate = this.piecePosition;
